@@ -1,0 +1,56 @@
+body{
+	font-family: 'Manrope', sans-serif;
+	background: #E5E5E5;
+}
+.logo-text{
+	font-weight: 800;
+}
+.btn-outline-main {
+  color: #ffffff;
+  background: #8C30F5;	
+  transition: all 0.5s;
+}
+.btn-outline-main:hover{
+  color: #8C30F5;
+  background: #F1E4FF;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-nav>li>a{display: block;
+	padding: 0.5rem 1rem;
+	color: #ffffff !important;
+	background-color: #8C30F5;
+	text-align:center;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.bg-main{
+	background: #8C30F5;
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.95%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.text-main{color: #ffffff;}
+}
+/*end of laptop*/
+@media screen and (min-width: 767px) {
+.navbar-nav>li>a{display: block;
+	padding: 0.5rem 1rem;
+	background: white;
+	color: #18191F;
+	text-align:center;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}	
+	.navbar-nav>li>a:hover{
+		color: #8C30F5;}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28140, 48, 245, 0.95%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.bg-main{
+  background: #ffffff;
+}
+.text-main{color: #18191F;}
+}
+/*end of desktop*/
