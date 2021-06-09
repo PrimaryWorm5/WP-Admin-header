@@ -1,4 +1,5 @@
 <?php
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 /**
  * Empty functions and definitions
  *
@@ -50,6 +51,7 @@ if ( ! function_exists( 'empty_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
+				'main_menu' => 'Main Menu',
 				'menu-1' => esc_html__( 'Primary', 'empty' ),
 			)
 		);

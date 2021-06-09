@@ -12,6 +12,7 @@
   </head>
   <body>
 <header>
+ 
 <nav class="navbar align-items-center navbar-expand-md bg-main" aria-label="Fourth navbar example">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -56,8 +57,8 @@
           'link_before'     => '',
           'link_after'      => '',
           'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
-          'depth'           => 0,
-          'walker'          => '',
+          'depth'           => 2,
+          'walker'          => new WP_Bootstrap_Navwalker(),
         ) ); ?>
        
         <form class="d-md-inline d-none">
